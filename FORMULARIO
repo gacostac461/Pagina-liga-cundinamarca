@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FORMULARIO CONTACTO</title>
+</head>
+<body>
+  <form action="">
+    <h2>CONTACTO</h2>
+    <input type="text" name="Nombre" placeholder="Nombre">
+    <input type="text" name="Correo" placeholder="Correo">
+    <input type="text" name="Telefono" placeholder="Telefono">
+    <textarea name="Mensaje" placeholder= "Escriba aqui su mensaje" id="" cols="22" rows="15">
+    </textarea>
+    <input type="button"  value="ENVIAR" id="boton"
+  </form>
+</body>
+</html>

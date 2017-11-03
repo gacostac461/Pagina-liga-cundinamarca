@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>COMPETENCIAS</title>
+  <link rel="stylesheet" href="css/estilos.cs">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+  
+<body>
+  <header class="header">
+    <div class="contenedor">
+      <h1 class="COMPETENCIAS"></h1>
+      <span class="icon-menu"></span>
+      <nav class="menu">
+        <a href="">ULTIMOS RESULTADOS</a>
+        <a href="">RANKING</a>
+        <a href="">CONTACTO</a>
+        <a href="">ACERCA DE NOSOTROS</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="banner">  
+      <img src="img/banner.jpg">
+      <div class="contenedor"></div>
+      <h2>ULTIMOS RESULTADOS</h2>
+      <p>Los ultimos resultados en nuestras competencias.</p>
+      <a href="leer mas"></a>
+    </section>
+    <section id="RANKING">
+      <h2>ASI VAMOS A NIVEL NACIONAL</h2>
+      <p>RANKING NACIONAL
+Mayores Ranking Nacional  09-08-2017
+
+Juvenil Ranking Nacional 22-07-2017
+
+Ranking Nacional Cadete 22-07-2017
+
+M15 ESCALAFON NACIONAL 22-07-2017
+
+M13 ESCALAFON NACIONAL 22-07-2017
+
+M11 ESCALAFON NACIONAL 22-07-2017
+
+M9 ESCALAFON NACIONAL 22-07-2017
+
+Paralímpico Escalafón Nacional 20-08-17</p>
+    </section>
+    
+    <section id="CONTACTO">
+     <h3>AQUI PUEDES CONTACTARNOS</h3>
+       <div class="contenedor">
+         <article>
+           <img src="" alt="">
+           <h4></h4>
+         </article>
+         <article>
+           <img src="" alt="">
+           <h4></h4>
+         </article>
+         <article>
+           <img src="" alt="">
+           <h4></h4>
+         </article>
+      
+       </div>
+      
+    </section>
+  </main>
+</body>
+</html>

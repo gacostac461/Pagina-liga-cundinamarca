@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>COMPETENCIAS</title>
+</head>
+<body>
+ 
+<img src ="https://www.guatemala.com/fotos/201702/calendario-esgrima-guatemala-2017-885x500.jpg" alt="imagen de internet">
+
+  <h1>COMPETENCIAS LIGA ESGRIMA</h1>
+  
+ <h2 style="text-align:center;"><em>Publicaciones de competencias de la Liga</em></h2> 
+      
+<div id="borderimg"></div> 
+  
+<header>
+  <h1>Elementos Principales</h1>
+  <p>Espada</p>
+  <p>Florete</p>
+  <p>Sable</p>
+  
+ <b></b>
+</header>
+<img src="http://estaticos03.marca.com/multimedia/juegos-olimpicos/esgrima/2016/reglas/campo-esgrima.png" alt="imagen de internet">
+     
+     <h1 style="text-align:center;"> Carater&iacute;stiscas:</h1>
+       
+         <h2>Antecedentes de las competencias:</h2>
+         <ul>
+         <li>Publicaciones de informaci&oacute;n de Incripciones</li>
+         <li>Competencias de la liga de Cundinamarca</li>
+         <li>Resultados e informaci&oacute;n sobre la liga</li>
+           </ul>
+  
+  <h2>PRÓXIMOS TORNEOS</h2>
+  
+  <table style="width:150%">
+    
+  <tr>
+    <th>Fechas:</th>
+    <td>04-11</td>
+    <th>Noviembre:Campeonato Infantl Menores</th>
+    <td>11-13</td>
+    <th>Noviembre:Juegos Bolivarianos</th>
+    <td>25-29</td>
+    <th>Noviembre:Intercoligiados Centroamericano</th>
+    
+    </tr>
+      </table> 
+  </body>
+</html>

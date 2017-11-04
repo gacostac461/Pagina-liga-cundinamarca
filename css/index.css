@@ -232,6 +232,17 @@ nav a:hover::before{
 	margin-bottom: 50px;
 }
 
+.t{
+    width: 770px;
+    font-family: 'LatoBold', 'Helvetica', arial;
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 30px;
+	margin-bottom: 20px;
+    margin-left: 13px;
+    
+}
 .main .title a,
 .main2 .title a{
 	text-decoration: none;
@@ -300,6 +311,7 @@ nav a:hover::before{
 	position: relative;
     border-left: 1px #e1e0e0 solid;
 	border-right: 1px #e1e0e0 solid;
+    
 	height: auto;
 	overflow: hidden;
     
@@ -375,6 +387,13 @@ aside .textwidget p{
 	border: 1px #b9b9b9 solid;
 }
 
+.Reloj{
+    
+    position: absolute;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: 'LatoRegular', 'Helvetica', arial;
+}
 
 .img2{
     height: 100px;

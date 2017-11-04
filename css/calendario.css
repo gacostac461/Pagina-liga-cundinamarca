@@ -130,6 +130,18 @@ nav a:hover::before{
 	float: left;
 }
 
+.t{
+    width: 770px;
+    font-family: 'LatoBold', 'Helvetica', arial;
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 30px;
+	margin-bottom: 20px;
+    margin-left: 13px;
+    
+}
+
 .main .post h1.title,
 .main2 .post h1.title{
 	font-family: 'LatoBold', 'Helvetica', arial;
@@ -284,6 +296,14 @@ aside .textwidget p{
 }
 
 
+.Reloj{
+    
+    position: absolute;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: 'LatoRegular', 'Helvetica', arial;
+}
+
 .img2{
     height: 100px;
     width: 290px;
@@ -406,4 +426,5 @@ footer ul.social_profiles li a,
 	-webkit-transition: .2s linear;
 	-moz-transition: .2s linear;
 	-o-transition: .2s linear;
+    margin-left: 25px;
 }

@@ -8,7 +8,9 @@ img {
 	display: block;
 	max-width: 100%;
 }
+
 body {
+	margin: 0;
 	font-family: 'Sumana', serif;
 }
 
@@ -17,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 1.5px;
 	 
 }
+.section__titulo {
+	text-align: center;
+	font-size: 40px;
+	color: #fba919;  
+}
+
 
 /*---------------------ESTILOS DE HEADER-----------------*/
 
@@ -30,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo, .icon-menu {
 	margin: 5px;
+	 color: #fff;
 }
 .icon-menu {
 	display: block;
@@ -37,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 	height: 40px;
 	font-size: 30px;
 	background: #fba919;
-	color: bisque;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 5px;
@@ -65,14 +73,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__link {
 	display: block;
-	padding: 20px;
+	padding: 10px;
 	background: #FBA919;
 	text-decoration: none;
-	color: bisque;
+	color: #fff;
 	
 }
 
-.menu__link:hover {
+.menu__link:hover, .select {
 	background: whithe;
 	color: #FBA919;
 }
@@ -81,6 +89,82 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0; 
 	
 }
+
+
+
+/*---------------------ESTILOS DE BANNER--------------------*/
+ 
+.banner {
+	margin-top: 60;
+	position: relative;
+	z-index: -1000;
+	margin-bottom: 20px;
+}
+
+.banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50) translateY(-50);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.banner__txt {
+	display: none;
+}
+
+/*----------------------ESTILOS DE INFO---------------------*/
+ 
+.info__columna {
+	background: #fba919;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 30px; 
+}
+
+
+/*----------------------ESTILOS DE CURSOS---------------------*/
+
+.cursos__columna {
+	position: relative;
+}
+
+
+.cursos__descripcion {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	width: 60%;
+	height: 100%;
+	padding: 5px;
+}
+.cursos__titulo {
+	font-size: 25px;
+	margin: 5px 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

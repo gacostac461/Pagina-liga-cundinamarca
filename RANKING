@@ -12,16 +12,16 @@
 <body>
 	<header class="header">
 		<div class="contenedor">
-			<h1 class="icon-menu">RANKING</h1>
+			<h1 class="menu">RANKING</h1>
 			<spam class="icon-menu" id="btn-menu"></spam>
 			<nav class="nav"></nav>
 			<ul class="menu">
-				<li class="menu__item"><a class="menu__link select " href="">RANKING NACIONAL</a></li>
+				<li class="menu__item"><a class="menu__link" href="">RANKING NACIONAL</a></li>
 				<li class="menu__item"><a class="menu__link" href="">SISTEMAS DE PUNTAJES DE RANKING</a></li>
 				<li class="menu__item"><a class="menu__link" href="">ARCHIVO DE RANKING</a></li>
 				<li class="menu__item"><a class="menu__link" href="">OTROS</a></li>
 			</ul>
-		</div>
+		</div>		
 	</header>
 	<banner>
 		<img src="img/florete-london-20121.jpg" alt="" class="banner__img">
@@ -36,17 +36,442 @@
 		 		<article class="info__columna">
 		 			<img src="img/images%20(1).jpg" alt="" class="info__img">
 		 			<h2 class="info__titulo">RANKING NACIONAL</h2>
-		 			<p class="info txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium ut reprehenderit officia, tempora similique.</p>
+		 			<p class="info txt">Archivos en pdf que puedes verificar.</p>
+		 			<form action="file php" method="post" enctype="multipart/form-data">
+		 				<input type="file" name="archivo" id="archivo">
+		 				<input type="submit" value="subir archivo" id="archivo">
+		 			</form>
 		 		</article>
 		 		<article class="info__columna">
 		 			<img src="img/images.png" alt="" class="info__img">
 		 			<h2 class="info__titulo">SISTEMAS DE PUNTAJES DE RANKING</h2>
-		 			<p class="info txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquam eos, provident ut autem dolore, ullam sapiente libero facere quam, officiis voluptates dolores suscipit eaque non possimus nostrum dolorem sequi?
+		 			<p class="info txt">RESOLUCIÓN NO. 013
+(Del 8 de marzo de 2017)
+
+ 
+
+“POR MEDIO DE LA CUAL SE ACTUALIZAN LOS PUNTAJES DE LOS ESCALAFONES NACIONALES Y DE COMPETENCIAS INTERNACIONALES Y SE TRAZAN OTROS PARÁMETROS DE SELECCIÓN”
+
+ 
+
+EL ÓRGANO DE ADMINISTRACIÓN DE LA FEDERACIÓN COLOMBIANA DE ESGRIMA EN
+
+USO DE SUS ATRIBUCIONES LEGALES, ESTATUTARIAS Y
+
+CONSIDERANDO
+
+ 
+
+Que de conformidad con lo establecido en el artículo 58 de los Estatutos de la Federación, la Comisión Técnica está comisionada para estudiar y proponer al Órgano de Administración los criterios para integrar las diferentes selecciones y preselecciones Nacionales.
+ 
+
+Que corresponde al Órgano de Administración dar cumplimiento a lo establecido en el artículo 48 de sus Estatutos: Funciones generales.
+ 
+
+Que es necesario tener un escalafón actualizado que incluye todos los deportistas de diferentes categorías que practican nuestro deporte dentro y fuera del País.
+ 
+
+Que varios de los deportistas afiliados a la FCE, residen en el exterior.
+ 
+
+Que estos deportistas compiten regularmente en los circuitos nacionales de los Países donde residen.
+ 
+
+Que se hace necesario dar un valor a los resultados en dichas competiciones para ser incluidos dentro del Escalafón Nacional.
+ 
+
+Que a las participaciones de los deportistas de la categoría Junior (incluidos Cadetes) que participan en competencias de la categoría Absoluta Nacional, se les debe dar un valor para asignarlo al Escalafón Nacional de la categoría Junior.
+ 
+
+Que es necesario dar un valor a las competencias por equipos de los escalafones Nacionales y así mejorar la calidad de estas.
+Que el 10 de febrero de 2015, la FCE promulgó la circular 001 mediante la cual se establecen los parámetros de desplazamiento y participación para las delegaciones que participan en eventos internacionales.
+
+ 
+
+RESUELVE
+ 
+
+ARTÍCULO PRIMERO:
+
+ 
+
+DE LAS COMPETENCIAS INDIVIDUALES
+
+ 
+
+Ratificar el sistema de puntos existente para las clasificaciones de los escalafones Nacionales regulares así:
+ 
+
+Lugar
+
+Puntos
+
+1°
+
+32
+
+2°
+
+26
+
+3°
+
+20
+
+5° al 8°
+
+14
+
+9° al 16°
+
+8
+
+17° al 32
+
+4
+
+33° al 64°
+
+2
+
+ 
+
+Modificar el sistema de puntos existente, para las clasificaciones de los deportistas que habitan en el exterior, temporal o permanentemente y que participen en los circuitos nacionales de los Países donde residen, Copas Mundo, Copas Satélite FIE y Sub 23 Europeo.
+ 
+
+El mismo valor de puntos se dará a aquellos deportistas que, eventualmente, participen en las mencionadas competencias.
+ 
+
+Puntuación estará dada por la cantidad de participantes en el torneo, con la siguiente formula: Puntos Base X Cantidad Participantes / 128 por los puntos de la siguiente tabla:
+ 
+
+ 
+
+Posición
+
+Puntos
+
+1
+
+32
+
+2
+
+26
+
+3
+
+20
+
+5 – 8
+
+14
+
+9 – 16
+
+8
+
+17 – 32
+
+4
+
+33 – 64
+
+2
+
+65 – 96
+
+1
+
+ 
+
+Ejemplos:
+
+ 
+
+ 
+
+Puesto
+
+Participantes
+
+4
+
+8
+
+12
+
+16
+
+18
+
+32
+
+38
+
+64
+
+128
+
+250
+
+350
+
+420
+
+1
+
+1,0
+
+2,0
+
+3,0
+
+4,0
+
+4,5
+
+8,0
+
+9,5
+
+16,0
+
+32
+
+62,5
+
+87,5
+
+105,0
+
+2
+
+0,8
+
+1,6
+
+2,4
+
+3,3
+
+3,7
+
+6,5
+
+7,7
+
+13,0
+
+26
+
+50,8
+
+71,1
+
+85,3
+
+3
+
+ 	
+1,3
+
+1,9
+
+2,5
+
+2,8
+
+5,0
+
+5,9
+
+10,0
+
+20
+
+39,1
+
+54,7
+
+65,6
+
+5-8
+
+ 	 	 	
+1,8
+
+2,0
+
+3,5
+
+4,2
+
+7,0
+
+14
+
+27,3
+
+38,3
+
+45,9
+
+9-16
+
+ 	 	 	 	 	
+2,0
+
+2,4
+
+4,0
+
+8
+
+15,6
+
+21,9
+
+26,3
+
+17 – 32
+
+ 	 	 	 	 	 	 	
+2,0
+
+4
+
+7,8
+
+10,9
+
+13,1
+
+33 – 64
+
+ 	 	 	 	 	 	 	 	
+2
+
+3,9
+
+5,5
+
+6,6
+
+65 – 96
+
+ 	 	 	 	 	 	 	 	
+1
+
+2,0
+
+2,7
+
+3,3
+
+ 
+
+Criterios para dar puntos:
+ 
+
+Solo se otorgarán puntos cuando el deportista ingrese a un cuadro completo.
+ 
+
+Ejemplo: en una competencia que el cuadro que resulte después de las poules sea de 64 pero no hay 64 tiradores, sólo se otorgará puntos si el tirador ingresa al cuadro de 32 (el cual está completo).
+
+ 
+
+Existirá un coeficiente de dificultad, dado por los participantes en el torneo que tengan ranking FIE, clasificados del 1 al 100.
+Esto se calculará como un multiplicador adicional de la siguiente forma:
+
+ 
+
+Se le da un puntaje a cada participante, 101 menos el puesto en el ranking. Si es el número 1 del ranking obtendrá 100 puntos, si es el número 27 obtendrá 74 puntos. Se suman todos estos puntos para un máximo de 5050 puntos.
+
+ 
+
+El coeficiente se calcularía la siguiente formula:
+
+ 
+
+Suma del Puntaje X 100 / 5050 (El coeficiente mínimo es 1). Ejemplo 1:
+
+En una competencia en la que participan los 5 primeros del ranking FIE se obtiene un puntaje de 585 puntos, lo que representa un coeficiente de 11.5, si el deportista hace cuadro de 64 obtendría un puntaje en el ranking de 2 X 11.5 = 23 puntos.
+
+ 
+
+Ejemplo 2:
+
+ 
+
+En una competencia en la que participan el 23, 26, 50, 73, 80 y 99 del ranking FIE se obtiene un puntaje de 255, lo que representa un coeficiente de 5, si el deportista hace cuadro de 64 obtendría un puntaje en el ranking de 2 X 5 = 10 puntos.
+
+ 
+
+Ejemplo 3:
+
+ 
+
+En una competencia en la que participan los 100 primeros del ranking FIE se obtiene un puntaje de 5050 lo que representa un coeficiente de 100, si el deportista hace un cuadro de 64 obtendría un puntaje en el ranking de 2 X 100 = 200 puntos.
+
+ 
+
+Durante un periodo, tiempo entre 2 nacionales en Colombia, solo se tendrá en cuenta la competencia internacional con el mayor puntaje, siempre y cuando no participe en la nacional en Colombia.
+ 
+
+Si el deportista participa en el nacional colombiano, solo se tendrá en cuenta esta competencia.
+ 
+
+El deportista interesado en que se le tenga en cuenta lo puntos obtenidos, contará con un tiempo máximo de 8 días calendario, contados a partir de la fecha de terminación de la competencia, para registrar los resultados en la página web del sistema de información de la FCE (sistemainfo.fedesgrima.com). Esto debido a que el ranking FIE puede variar en ese periodo, por lo que la información no podría ser verificada.
+ 
+
+El registro de los resultados debe venir acompañado de información que se pueda verificar, documentos en PDF, fotos o link a páginas del evento.
+ 
+
+La comisión técnica o comisión de ranking revisarán y aprobarán los resultados.
+ 
+
+ARTÍCULO SEGUNDO
+
+La presente resolución rige a partir de los Grandes Campeonatos Nacionales 2016 en las respectivas categorías y deroga las demás disposiciones que le sean contrarias
+
+ 
+
+La presente resolución se expide en Bogotá a los tres (3) días del mes de marzo de 2017.
+
+ 
+
+COMUNÍQUESE Y CÚMPLASE
+
+ 
+
+ 
+
+VLADIMIR IWANOFF PRESIDENTE
+
+FEDERACION COLOMBIANA DE ESGRIMA
 		 		</article>
 		 		<article class="info__columna">
 		 			<img src="img/images.jpg" alt="" class="info__img">
 		 			<h2 class="info__titulo">ARCHIVO DE RANKING</h2>
-		 			<p class="info txt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ipsam, vel? Sequi nobis perferendis a nesciunt dicta numquam blanditiis quae ipsum vero cum enim maiores perspiciatis quibusdam, molestias hic soluta?
+		 			<p class="info txt"> RANKING MAYORES – ARCHIVO
+Ranking Nacional Mayores, julio 2017
+
+Mayores Ranking Nacional 22-05-2017
+
+Ranking Nacional de Espada Mayores, mayo 2017
+
+Ranking Nacional Mayores, marzo 2017
+
+Ranking Nacional Mayores, febrero 2017
+
+Ranking Nacional Mayores, enero 2017
+
+Ranking Mayores, diciembre 2016
+
+ 
+
+Nota: para consultar rankings anteriores a 2017 por favor siga este Enlace.
 		 		</article>
 		 	</section>	
 		 	<section class="RANKING">
@@ -55,28 +480,25 @@
 		 			<img src="img/images%20(2)nu.jpg" alt="" class="ranking__img">
 		 			<div class="ranking__descripcion">
 		 				<h3 class="ranking__titulo">ESCALAFON</h3>
-		 				<p class="ranking__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dolorum.</p>
+		 				<p class="ranking__txt">----</p>
 		 			</div>
 		 		</div>
 		 		<div class="ranking__columna">
 		 			<img src="img/Ranking-Ganar-Dinero.jpg" alt="" class="ranking__img">
 		 			<div class="ranking__descripcion">
 		 				<h3 class="ranking__titulo">RESULTADOS DE NUESTRAS COMPETENCIAS</h3>
-		 				<p class="ranking__txt">Dolorem quidem fuga vitae eaque, provident velit, harum impedit quia?</p>
+		 				<p class="ranking__txt">----?</p>
 		 			</div>
 		 		</div>
 		 		<div class="ranking__columna">
 		 			<img src="img/ranking-1.jpg" alt="" class="ranking__img">
-		 			<div class="cursos__descripcion">
-		 				<h3 class="ranking__titulo">COMO VAMOS</h3>
-		 				<p class="ranking__txt">Quasi amet officiis explicabo iusto, eos quidem excepturi dolore, ullam.</p>
-		 			</div>
+		 			
 		 		</div>
 		 		<div class="ranking__columna">
 		 			<img src="img/images%20(2)n.jpg" alt="" class="ranking__img">
 		 			<div class="ranking__descripcion">
 		 				<h3 class="ranking__titulo">ARCHIVO</h3>
-		 				<p class="ranking__txt">Unde nisi aperiam laborum ipsam laudantium maxime harum! Commodi, ducimus!</p>
+		 				<p class="ranking__txt">---------</p>
 		 			</div>
 		 		</div>
 		 	</section>

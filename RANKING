@@ -5,16 +5,18 @@
 	<title>RANKING</title>	
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/css/fontello-ie7-codes.css">
+
 </head>
 <body>
 	<header class="header">
 		<div class="contenedor">
-			<h1 class="logo">RANKING</h1>
+			<h1 class="icon-menu">RANKING</h1>
 			<spam class="icon-menu" id="btn-menu"></spam>
 			<nav class="nav"></nav>
 			<ul class="menu">
-				<li class="menu__item"><a class="menu__link" href="">RANKING NACIONAL</a></li>
+				<li class="menu__item"><a class="menu__link select " href="">RANKING NACIONAL</a></li>
 				<li class="menu__item"><a class="menu__link" href="">SISTEMAS DE PUNTAJES DE RANKING</a></li>
 				<li class="menu__item"><a class="menu__link" href="">ARCHIVO DE RANKING</a></li>
 				<li class="menu__item"><a class="menu__link" href="">OTROS</a></li>
@@ -22,12 +24,71 @@
 		</div>
 	</header>
 	<banner>
-		<img src="" alt="" class="banner__img">
+		<img src="img/florete-london-20121.jpg" alt="" class="banner__img">
 		<div class="contenedor">
 			<h2 class="banner__titulo"></h2>
 			<p class="banner__txt"></p>
 		</div>
 	</banner>
+	<main class="main">
+		<div class="contenedor">
+		 	<section class="info">
+		 		<article class="info__columna">
+		 			<img src="img/images%20(1).jpg" alt="" class="info__img">
+		 			<h2 class="info__titulo">TITULO 1</h2>
+		 			<p class="info txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium ut reprehenderit officia, tempora similique.</p>
+		 		</article>
+		 		<article class="info__columna">
+		 			<img src="img/images.png" alt="" class="info__img">
+		 			<h2 class="info__titulo">TITULO 2</h2>
+		 			<p class="info txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquam eos, provident ut autem dolore, ullam sapiente libero facere quam, officiis voluptates dolores suscipit eaque non possimus nostrum dolorem sequi?
+		 		</article>
+		 		<article class="info__columna">
+		 			<img src="img/images.jpg" alt="" class="info__img">
+		 			<h2 class="info__titulo">TITULO 3</h2>
+		 			<p class="info txt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ipsam, vel? Sequi nobis perferendis a nesciunt dicta numquam blanditiis quae ipsum vero cum enim maiores perspiciatis quibusdam, molestias hic soluta?
+		 		</article>
+		 	</section>	
+		 	<section class="cursos">
+		 		<h2 class="section__titulo">NUESTRA INFORMACION</h2>
+		 		<div class="cursos__columna">
+		 			<img src="img/ranking-1.jpg" alt="" class="cursos__img">
+		 			<div class="cursos__descripcion">
+		 				<h3 class="cursos__titulo">ESCALAFON</h3>
+		 				<p class="cursos__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dolorum.</p>
+		 			</div>
+		 		</div>
+		 		<div class="cursos__columna">
+		 			<img src="img/Ranking-Ganar-Dinero.jpg" alt="" class="cursos__img">
+		 			<div class="cursos__descripcion">
+		 				<h3 class="cursos__titulo">RESULTADOS DE NUESTRAS COMPETENCIAS</h3>
+		 				<p class="cursos__txt">Dolorem quidem fuga vitae eaque, provident velit, harum impedit quia?</p>
+		 			</div>
+		 		</div>
+		 		<div class="cursos__columna">
+		 			<^img src="img/ranking-1.jpg" alt="" class="cursos__img">
+		 			<div class="cursos__descripcion">
+		 				<h3 class="cursos__titulo">COMO VAMOS</h3>
+		 				<p class="cursos__txt">Quasi amet officiis explicabo iusto, eos quidem excepturi dolore, ullam.</p>
+		 			</div>
+		 		</div>
+		 		<div class="cursos__columna">
+		 			<img src="img/images.jpg" alt="" class="cursos__img">
+		 			<div class="cursos__descripcion">
+		 				<h3 class="cursos__titulo">ARCHIVO</h3>
+		 				<p class="cursos__txt">Unde nisi aperiam laborum ipsam laudantium maxime harum! Commodi, ducimus!</p>
+		 			</div>
+		 		</div>
+		 	</section>
+		</div>	
+	</main>
+	<footer class="footer">
+		.social> <icon->.icon-instagram</icon->
+		<icon->.icon-twitter</icon->
+		<icon->.icon-instagram</icon->
+		<p class="copy">&copy; liga de esgrima de cundinamarca</p>
+		
+	</footer> 	
 	<script src="js/menu.js"></script> 
 </body>
 </html>

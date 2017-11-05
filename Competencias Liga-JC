@@ -51,3 +51,22 @@
       </table> 
   </body>
 </html>
+
+
+--------------------------Estilos de Competencias--------------------------------
+
+
+center img {
+    display: block;
+    margin: auto;
+    width: 25%;
+}    
+
+#header{
+font = size:25px 
+background-color:#ff00ff;
+}
+.cursos__columna {
+	position: relative;
+}
+

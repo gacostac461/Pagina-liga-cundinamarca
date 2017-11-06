@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     
-     <link rel="stylesheet" type="text/css" href="css/Ranking.css">
+     <link rel="stylesheet" type="text/css" href="css/Nosotros.css">
   
 
     <script type="text/javascript" src="js/script.js"></script>
@@ -12,10 +12,8 @@
     
     
     
-    <title>Liga esgrima Cundinamarca:Ranking</title>
-   
-    
-    
+    <title>Liga esgrima Cundinamarca:Contacto</title>
+ 
     
     </head>  
     
@@ -34,7 +32,7 @@
 					<li><a href="calendario.html">Calendario</a></li>
                     <li><a href="#">Competencias</a></li>
                     <li><a href="Resultados.html">Ultimos resultados</a></li>
-                    <li><a href="#">Ranking</a></li>
+                    <li><a href="RANKING.html">Ranking</a></li>
                     <li><a href="#">Contacto</a></li>
 				</ul>
 				</nav>
@@ -48,26 +46,48 @@
 			<article>
                 <div class="t">
                 	<h1 class="title">
-						<a href="RANKING.html">Ranking</a>
+						<a href="Contacto.html">Contacto</a>
 					</h1>
                 </div>
 				
 				<div class="post">
 				
-					
-		
-		
+                    <form name="contactform" method="post" action="send_form_email.php"> 
+<table width="450px"><!---Este tamaño en px es personalizable -->
+<tr>
+ <td valign="top">
+  <label for="first_name">Nombre *</label>
+ </td>
+ <td valign="top">
+  <input class ="" type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="last_name">Apellido *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
 
-			<a href ="pdf/Ranking/MAYORES-ESCALAFON-NACIONAL-09-08-2017.pdf"><p>Mayores ranking nacional 09-08-2017</p></a>
-           
-                    <a href = ><p>Juvenil Ranking Nacional 22-07-2017 </p>  </a>
-           <a href = "pdf/Ranking/CADETE-ESCALAFON-NACIONAL-22-07-2017.pdf"> <p>Ranking Nacional Cadete 22-07-2017</p> </a>
-            <a href ="pdf/Ranking/M15-ESCALAFON-NACIONAL-22-07-2017.pdf"><p>M15 ESCALAFON NACIONAL 22-07-2017</p> </a>
-            <a href ="pdf/Ranking/M13-ESCALAFON-NACIONAL-22-07-2017.pdf"><p>M13 ESCALAFON NACIONAL 22-07-2017</p>   </a>             
-            <a href ="pdf/Ranking/M11-ESCALAFON-NACIONAL-22-07-2017.pdf"><p>M11 ESCALAFON NACIONAL 22-07-2017</p> </a>
-           <a href = "pdf/Ranking/M9-ESCALAFON-NACIONAL-22-07-2017.pdf"><p>M9 ESCALAFON NACIONAL 22-07-2017</p> </a>
-           <a href ="pdf/Ranking/PARALIMPICO-ESCALAFON-NACIONAL-20-08-17.pdf"> <p>Paralímpico Escalafón Nacional 20-08-17</p> </a>
-                   
+
+<tr>
+ <td valign="top">
+  <label for="message">Mensaje *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   <a href="http://www.ladirecciondetusitio/email_form.php">Enviar</a>
+ </td>
+</tr>
+</table>
+</form>
+	
                     
 				</div>
 			</article>
@@ -76,16 +96,6 @@
 		</section><!-- fin de Content-->
 
 		<aside class="sidebar">
-            
-            	<section class="widget">
-				<h3 class="widget-title">Ranking</h3>
-						<table>
-          <tr> <td><a  href="Ranking%20Mayores.html"><p>Ranking  Mayores</p></a></td> </tr>
-       <tr> <td> <a href="Ranking%20Juvenil.html"><p>Ranking Juvenil</p></a></td></tr>
-        <tr>  <td> <a href="Ranking%20Cadetes.html"><p>Ranking Cadetes</p></a></td></tr>
-    </table>
-			</section>
-            
             
             <section class="widget">
                 <h3 class="widget-title">Hora actual</h3>
@@ -142,7 +152,12 @@
 				</div>
 			</section>
 
-		
+			<section class="widget">
+				<h3 class="widget-title">Busqueda</h3>
+				<form class="search_widget">
+					<input type="text" id="search-field" class="search-field" placeholder="¿Qué estas buscando?"/>
+				</form>
+			</section>
 
 			
 		</aside><!-- aside(sidebar) fin -->

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style>
+    <body{
+          background-color: #eee;
+         }
+         form{
+            margin: 180px; auto;
+            width: 350px;
+            height: 250px;
+            background: white;
+            border-bottom: 4px solid darkGreen;
+           }
+         form label{
+            display: block;
+            color: DodgerBlue;
+            background: #7CFC00;
+            paddin: 12px 0;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+          form input[type="text"], input[type="password"]{
+          widht: 230px;
+          padding: 12px 40px;
+          font-weight: bold;
+          font-family: cursive;
+          margin-left: 18px;
+          margin-bottom: 10px;
+          border: 1px solid #7CFC00;
+          text-transform: uppercase;
+          -moz-transition: all 0.5s;
+       }
+      form input[type="text"]{
+           background: url("user.png") 5px no-repeat;
+       }
+      form input[type="password"]{
+           background: url("pass.png") 5px no-repeat;
+       }
+       form input[type="text"]:focus, input[type="password"]:focus{
+           border: 1px soid #333;
+           background: none;
+           width: 290px;
+           padding: 12px 10px;
+    }
+      form input[type="submit"]{
+           background: DodgerBlue;
+           color: darkGreen;
+           display: inline-block;
+           margin-left: 18px;
+           margin-bottom: 10px; 
+           padding: 8px 20px;
+           border: none;
+           font-weight: bold;
+        }
+      form input[type="submit"]:hover{
+           background: darkGreen;
+           cursor: pointer;
+       }
+</style>
+</head>
+<body>
+<form action="">
+<label for="">Iniciar Sesión</label> <br>
+
+<input type="text" name="" id="" placeholder="Usuario" required><br>
+<input type="password" name="" id="" placeholder="Contraseña"> 
+<br>
+
+<input type="submt" value="Entrar">
+</form>
+</body>
+</html>

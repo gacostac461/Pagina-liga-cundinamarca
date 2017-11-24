@@ -1,20 +1,99 @@
-// <![CDATA[
-$(function() {
+// JavaScript Document
 
-  // Slider
-  $('#coin-slider').coinslider({width:940,height:310,opacity:1});
+$('document').ready(function()
+{ 
+     /* validation */
+  $("#register-form").validate({
+      rules:
+   {
+   user_name: {
+      required: true,
+   minlength: 3
+   },
+   password: {
+   required: true,
+   minlength: 8,
+   maxlength: 15
+   },
+   cpassword: {
+   required: true,
+   equalTo: '#password'
+   },
+   user_email: {
+            required: true,
+            email: true
+            },
+    },
+       messages:
+    {
+            user_name: "please enter user name",
+            password:{
+                      required: "please provide a password",
+                      minlength: "password at least have 8 characters"
+                     },
+            user_email: "please enter a valid email address",
+   cpassword:{
+      required: "please retype your password",
+      equalTo: "password doesn't match !"
+       }
+       },
+    submitHandler: submitForm 
+       });  
+    /* validation */
+    
+    /* form submit */
+    function submitForm()
+    {  
+    var data = $("#register-form").serialize();
+    
+    $.ajax({
+    
+    type : 'POST',
+    url  : 'registro.php',
+    data : data,
+    beforeSend: function()
+    { 
+     $("#error").fadeOut();
+     $("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
+    },
+    success :  function(data)
+         {      
+        if(data==1){
+         
+         $("#error").fadeIn(1000, function(){
+           
+           
+           $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Sorry email already taken !</div>');
+           
+           $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account');
+          
+         });
+                    
+        }
+        else if(data=="registered")
+        {
+         
+         $("#btn-submit").html('<img src="btn-ajax-loader.gif" /> &nbsp; Signing Up ...');
+         setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("success.php"); }); ',5000);
+         
+        }
+        else{
+          
+         $("#error").fadeIn(1000, function(){
+           
+      $("#error").html('<div class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+data+' !</div>');
+           
+         $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account');
+          
+         });
+           
+        }
+         }
+    });
+    return false;
+  }
+    /* form submit */ 
 
-  // Radius Box
-  $('.menu_nav ul li a, .post_content a.rm').css({"border-radius":"20px", "-moz-border-radius":"20px", "-webkit-border-radius":"20px"});
-  //$('.article a.com').css({"border-top-right-radius":"10px", "border-bottom-right-radius":"10px", "-moz-border-radius-topright":"10px", "-moz-border-radius-bottomright":"10px", "-webkit-border-top-right-radius":"10px", "-webkit-border-bottom-right-radius":"10px"});
-  //$('.content p.pages span, .content p.pages a').css({"border-radius":"16px", "-moz-border-radius":"16px", "-webkit-border-radius":"16px"});
-  //$('.menu_nav').css({"border-bottom-left-radius":"16px", "border-bottom-right-radius":"16px", "-moz-border-radius-bottomleft":"16px", "-moz-border-radius-bottomright":"16px", "-webkit-border-bottom-left-radius":"16px", "-webkit-border-bottom-right-radius":"16px"});
+});
 
-});	
 
-// Cufon
-Cufon.replace('h1, h2, h3, h4, h5, h6, .article a.com, .menu_nav ul li a, .post_content a.rm', { hover: true });
-//Cufon.replace('h1', { color: '-linear-gradient(#fff, #ffaf02)'});
-//Cufon.replace('h1 small', { color: '#8a98a5'});
-
-// ]]>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<title>Registro</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">   
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/signup-form.css" type="text/css" />    
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+      
+    
+<body>
+
+
+  
+
+<div class="w3-content" style="max-width:1600px">
+
+
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><a href="http://www.lisenme.com/"><img src="images/Logo%20v1.png" alt="Girl Hat" style="width:20%" class="w3-padding-16"></a></h1>
+    <h6>Bienvennido a la página <span class="w3-tag">de registro</span></h6>
+
+  </header>
+  
+
+ 
+
+ 
+  <div class="w3-row w3-padding w3-border">
+
+  
+    <div class="w3-col l12 s12">
+    
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        
+          <div class="container">
+
+    <div class="signup-form-container">
+    
+         
+         <form method="post" role="form" id="register-form" autocomplete="off">
+         
+         <div class="form-header">
+         	<h3 class="form-title"><span class="glyphicon glyphicon-user"></span>Registrate</h3>
+                      
+         
+                      
+         </div>
+                  
+         <div class="form-body">
+         
+         
+              <div id="errorDiv"></div>
+           
+                      
+         	  <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                   <input name="name" type="text" id="name" class="form-control" placeholder="Nombre" maxlength="40" autofocus="true">
+                   </div>
+                   <span class="help-block" id="error"></span>
+              </div>
+                        
+              <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                   <input name="email" id="email" type="text" class="form-control" placeholder="Email" maxlength="50">
+                   </div> 
+                   <span class="help-block" id="error"></span>                     
+              </div>
+                        
+              <div class="row">
+                        
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="password" id="password" type="password" class="form-control" placeholder="Contraseña">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="cpassword" type="password" class="form-control" placeholder="Escribe de nuevo la contraseña">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+             </div>
+                        
+                        
+            </div>
+            
+            <div class="form-footer">
+                 <button type="submit" class="btn btn-info" id="btn-signup" style="color: #fff; background-color: #1d91d0;">
+                 Validar
+                 </button>
+            </div>
+
+
+            </form>
+            
+           </div>
+           
+       
+
+	</div>
+
+          
+            
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+    
+    <script src="assets/jquery-1.12.4-jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery.validate.min.js"></script>
+    <script src="assets/register.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

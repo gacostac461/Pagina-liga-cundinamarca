@@ -26,6 +26,7 @@ $('document').ready(function()
     },
        messages:
     {
+<<<<<<< HEAD
             user_name: "Ponga su nombre de usuario",
             password:{
                       required: "Pon tu contraseña",
@@ -35,6 +36,17 @@ $('document').ready(function()
    cpassword:{
       required: "Reescribe tu contraseña",
       equalTo: "La contraseña no cincide"
+=======
+            user_name: "please enter user name",
+            password:{
+                      required: "please provide a password",
+                      minlength: "password at least have 8 characters"
+                     },
+            user_email: "please enter a valid email address",
+   cpassword:{
+      required: "please retype your password",
+      equalTo: "password doesn't match !"
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
        }
        },
     submitHandler: submitForm 
@@ -54,7 +66,11 @@ $('document').ready(function()
     beforeSend: function()
     { 
      $("#error").fadeOut();
+<<<<<<< HEAD
      $("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; enviando ...');
+=======
+     $("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
     },
     success :  function(data)
          {      
@@ -63,9 +79,15 @@ $('document').ready(function()
          $("#error").fadeIn(1000, function(){
            
            
+<<<<<<< HEAD
            $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; ¡Lo sentimos una cuenta ya usa ese email !</div>');
            
            $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Crea una cuenta');
+=======
+           $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Sorry email already taken !</div>');
+           
+           $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account');
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
           
          });
                     
@@ -73,8 +95,13 @@ $('document').ready(function()
         else if(data=="registered")
         {
          
+<<<<<<< HEAD
          $("#btn-submit").html('<img src="btn-ajax-loader.gif" /> &nbsp; Registrandose...');
          setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("../index.php"); }); ',5000);
+=======
+         $("#btn-submit").html('<img src="btn-ajax-loader.gif" /> &nbsp; Signing Up ...');
+         setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("success.php"); }); ',5000);
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
          
         }
         else{
@@ -83,7 +110,11 @@ $('document').ready(function()
            
       $("#error").html('<div class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+data+' !</div>');
            
+<<<<<<< HEAD
          $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Crear cuenta');
+=======
+         $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account');
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
           
          });
            
@@ -92,7 +123,15 @@ $('document').ready(function()
     });
     return false;
   }
+<<<<<<< HEAD
    
 });
 
 
+=======
+    /* form submit */ 
+
+});
+
+
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b

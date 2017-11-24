@@ -30,13 +30,21 @@
     }
     else
     {
+<<<<<<< HEAD
      echo "No se puede ejecutar la consulta!";
+=======
+     echo "Query could not execute !";
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
     }
    
    }
    else{
     
+<<<<<<< HEAD
     echo "1"; 
+=======
+    echo "1"; //  not available
+>>>>>>> 21b1562cbe732b118bf311be7ef70de4024b3b8b
    }
     
   }

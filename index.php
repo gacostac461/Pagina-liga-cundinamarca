@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,14 +6,18 @@
     
      <link rel="stylesheet" type="text/css" href="css/index.css">
   
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/validation.min.js"></script>
+
+<script type="text/javascript" src="js/script2.js"></script>
+
     
     	<style>
 #myMap {
-   height: 450px;
+   height: 350px;
    width: 280px;
 }
 </style>
@@ -36,10 +41,23 @@
            <a href="Index.html"> <img src="images/Logo%20v1.png" alt="logo" class="logo"></a>
 			<nav>
 				<ul>
-                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
+                   <?php
+ session_start();
+if(!isset($_SESSION['user_session'])){
+                    echo' <li><a href="formulariologin.html">Ingresar</a></li>';
+                   echo '<li><a href="Formularioregistro.php">Registrate</a></li>';
+}
+
+else{
+echo' <li><a href="cerrarsesion.php">Cerrar sesion</a></li>';
+                   echo '<li><a href="Formularioregistro.php">Usuarios</a></li>';
+
+}
+?>
                     <li><a href="Nosotros.html">Nosotros</a></li>
 					<li><a href="calendario.html">Calendario</a></li>
-                    <li><a href="#">Competencias</a></li>
+                    
                     <li><a href="Resultados.html">Ultimos resultados</a></li>
                     <li><a href="RANKING.html">Ranking</a></li>
                     <li><a href="#">Contacto</a></li>
@@ -202,6 +220,9 @@ function showSlides() {
 				</div>
 			</section>
 
+            
+            
+            
 			<section class="widget">
 				<h3 class="widget-title">google maps</h3>
 				
@@ -276,7 +297,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 	<footer>
 		<div class="wrapper">
-			
+ 
+
+
+      
 			<p class="rights">© 2017  -  ESGRIMA CUNDINAMARCA   </p>
             
             

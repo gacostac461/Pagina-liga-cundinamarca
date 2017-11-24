@@ -50,9 +50,9 @@ nav ul{
 nav li{
     
    display: inline-block;
-    margin-left: 6px;
+    margin-left: 20px;
     padding-top: 55px;
-    margin-right: 6px;
+    margin-right: 26px;
     position: relative;
     
 }
@@ -260,7 +260,6 @@ nav a:hover::before{
 
 
 
-
 .main .title a,
 .main2 .title a{
 	text-decoration: none;
@@ -351,25 +350,6 @@ nav a:hover::before{
     width: 780px;
     
 }
-
-.submenu ul{
-    
-    display: flex;
-		padding: 0;
-		margin: 0;
-		list-style: none;
-    
-}
-
-.submenu a:hover {
-		background-color: #CC673B;
-	}
-	.submenu ul li ul {
-		display: none;
-	}
-	.submenu ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-		display: block;
-	}
 
 
 /*  Sidebar & widgets  */

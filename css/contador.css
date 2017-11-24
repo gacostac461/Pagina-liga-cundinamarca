@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+#count{
+	margin:0 auto;
+	width:200px;
+	height:75px;
+	padding-bottom:25px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	border-radius:15px;
+	background:#FFFFFF;
+}

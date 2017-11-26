@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +39,7 @@
 		<div class="container">
 			
             
-           <a href="Index.html"> <img src="images/Logo%20v1.png" alt="logo" class="logo"></a>
+           <a href="index.php"> <img src="images/Logo%20v1.png" alt="logo" class="logo"></a>
 			<nav>
 				<ul>
                     <li><a href="index.php">Inicio</a></li>
@@ -51,7 +52,7 @@ if(!isset($_SESSION['user_session'])){
 
 else{
 echo' <li><a href="cerrarsesion.php">Cerrar sesion</a></li>';
-                   echo '<li><a href="Formularioregistro.php">Usuarios</a></li>';
+                   echo '<li><a href="libretadedirecciones/index.php">Usuarios</a></li>';
 
 }
 ?>
